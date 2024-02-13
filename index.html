@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dígito Verificador</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Validación de Números con Dígito Verificador</h2>
+    
+    <div class="input-group">
+        <label for="number">Número:</label>
+        <input type="text" id="number" placeholder="Ingrese un número">
+    </div>
+
+    <div class="input-group">
+        <button class="btn" onclick="generateDigit()">Generar Dígito Verificador</button>
+    </div>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
